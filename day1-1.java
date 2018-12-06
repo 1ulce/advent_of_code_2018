@@ -10,6 +10,7 @@ public class Main {
             while((line = in.readLine()) != null) {
               //System.out.println(line);
               answer += Integer.parseInt(line);
+              
             }
             System.out.println(answer);
         } catch (FileNotFoundException e){ 
